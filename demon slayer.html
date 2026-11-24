@@ -391,7 +391,7 @@ for(const q in pr)delete pr[q]}
 requestAnimationFrame(loop);
 
 // ===== Anime-style character renderer =====
-const INK='#05050a';
+const INK='#05050b';
 function poly(pts,col,sh=.28,pat){X.beginPath();pts.forEach((p,i)=>i?X.lineTo(p[0],p[1]):X.moveTo(p[0],p[1]));X.closePath();X.fillStyle=col;X.fill();
 let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;pts.forEach(p=>{x0=Math.min(x0,p[0]);x1=Math.max(x1,p[0]);y0=Math.min(y0,p[1]);y1=Math.max(y1,p[1])});
 X.save();X.clip();if(sh){X.fillStyle='rgba(0,0,0,'+sh+')';X.fillRect(x0,y0,(x1-x0)*.42,y1-y0)}X.restore();X.stroke()}
