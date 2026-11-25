@@ -1,0 +1,28 @@
+1) insert below 13 values into vector
+    24,74,1,58,99,50,13,50,84,67,50,50
+    --> sort vector
+
+a)  ckeck 14 exists or not 
+b)  ckeck 67 exists or not
+c)  ckeck 50 after sorting
+d)  count of 50's
+e)  ckeck 50 after value exists or not 
+f)  first value after sorting
+g)  last value after sorting
+i)  second value after sorting
+j)  second from last value after sorting
+k)  check vector is empty 
+
+2) insert below 13 values into sets
+    24,74,1,58,99,50,13,50,84,67,50,50
+    --> sort vector
+
+a)  ckeck 14 exists or not 
+e)  ckeck 50 after value exists or not 
+f)  first value after sorting
+g)  last value after sorting
+i)  second value after sorting
+j)  second from last value after sorting
+l)  remove 50 and print again
+l)  remove first value and print again
+k)  check vector is empty 
